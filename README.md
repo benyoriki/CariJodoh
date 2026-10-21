@@ -11,3 +11,7 @@ Ganti `LocalStorageAdapter` di app.js dengan `FirebaseAdapter` (Firestore) → A
 ## Redesign 2026
 Ganti `hero.svg` dengan foto berlisensi (mis. `hero.jpg`, rasio 4:5) dan ubah `src` di index.html. Tambahkan favicon.png dan preview.jpg (1200×630).
 Tautan program: `daftar.html?p=Platinum` memilih program otomatis.
+
+## Login admin (demo)
+Email + kata sandi membuat akun admin lokal (hash SHA-256 + salt, hanya di browser ini). Tombol "Masuk Demo Admin" membuka dasbor langsung. Ini simulasi, bukan autentikasi produksi.
+Kompatibilitas: tanpa color-mix/backdrop-filter agar ringan di Chrome 109 / Firefox ESR pada Windows 7.
