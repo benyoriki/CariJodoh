@@ -15,3 +15,16 @@ Tautan program: `daftar.html?p=Platinum` memilih program otomatis.
 ## Login admin (demo)
 Email + kata sandi membuat akun admin lokal (hash SHA-256 + salt, hanya di browser ini). Tombol "Masuk Demo Admin" membuka dasbor langsung. Ini simulasi, bukan autentikasi produksi.
 Kompatibilitas: tanpa color-mix/backdrop-filter agar ringan di Chrome 109 / Firefox ESR pada Windows 7.
+
+## Halaman tambahan
+kebijakan-privasi.html, syarat-ketentuan.html (draf templat, wajib ditinjau hukum), 404.html (memakai base URL GitHub Pages; ubah bila memakai custom domain).
+Admin > Cari Kecocokan: kandidat dengan alasan kecocokan transparan; rekomendasi tersimpan dengan status Draft → Selesai.
+
+## PWA & logo
+manifest.json + sw.js (network-first, cadangan offline). Instal: Chrome/Edge (Windows & Android) lewat tombol "Pasang Aplikasi" atau menu browser; iPhone: Share > Add to Home Screen. Wajib HTTPS (GitHub Pages sudah). Setelah update, naikkan nama cache `V` di sw.js.
+Logo: logo.png (transparan) dan ikon icon-*.png dibuat dari logo Aku Cari Kamu.
+## Foto
+Foto peserta & hero hasil upload hanya di browser ini (IndexedDB, diperkecil, EXIF terhapus). Untuk hero permanen, ganti hero.svg dengan foto berlisensi.
+
+## Foto
+Foto peserta/hero dipotong (crop, gaya foto profil WhatsApp) lalu otomatis dikonversi ke WebP (cadangan JPEG bila browser tidak mendukung).

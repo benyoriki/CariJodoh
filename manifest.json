@@ -1,0 +1,31 @@
+{
+ "name": "BIRO JODOH INDONESIA",
+ "short_name": "Biro Jodoh",
+ "description": "Temukan Pasangan Serius & Sejalan di Sini.",
+ "start_url": "index.html",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#FFFDFE",
+ "theme_color": "#741C2C",
+ "lang": "id",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
