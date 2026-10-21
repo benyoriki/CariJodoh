@@ -7,3 +7,7 @@ Tambahkan sendiri: favicon.png dan preview.jpg (1200×630).
 - Tombol WhatsApp hanya membuka wa.me dengan pesan terisi; pengguna harus menekan Kirim.
 ## Migrasi Firebase
 Ganti `LocalStorageAdapter` di app.js dengan `FirebaseAdapter` (Firestore) → Auth untuk akun/role, Storage untuk foto, Cloud Functions + WhatsApp Cloud API untuk pesan, Security Rules & App Check untuk akses.
+
+## Redesign 2026
+Ganti `hero.svg` dengan foto berlisensi (mis. `hero.jpg`, rasio 4:5) dan ubah `src` di index.html. Tambahkan favicon.png dan preview.jpg (1200×630).
+Tautan program: `daftar.html?p=Platinum` memilih program otomatis.
