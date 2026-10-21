@@ -37,3 +37,13 @@ footer{background:#241820;color:#ddd;padding:30px 0;text-align:center;font-size:
 @media(max-width:1000px){.cat{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:760px){.hero{padding:30px 0 20px}.hero .wrap,.two,.trust{grid-template-columns:1fr}.hero .wrap{gap:28px}.photo{margin:auto;max-width:360px}.cat{grid-template-columns:repeat(2,1fr);gap:12px}.pb{padding:10px}.ra .btn{font-size:12px;padding:4px}#bg{display:inline-flex}nav .m{display:none;position:absolute;top:66px;left:0;right:0;background:var(--bg);flex-direction:column;align-items:stretch;padding:16px;border-bottom:1px solid var(--bd)}nav .m.on{display:flex}section{padding:42px 0}
 .adm{grid-template-columns:1fr}.side.m{display:block;position:fixed;left:0;top:0;z-index:50;width:250px;transform:translateX(-100%);transition:.25s}.side.m.on{transform:none}}
+
+nav .m{flex:1;justify-content:space-between}.lk,.ac{display:flex;gap:22px;align-items:center}.lk{margin:0 auto}.ac{gap:10px}.brand{margin-right:0}
+.side a{display:flex;align-items:center;gap:10px}.side a .i{width:18px;height:18px}.soon{margin-left:auto;font-size:10px;font-style:normal;background:#ffffff22;padding:1px 8px;border-radius:9px}
+.sc{display:flex;gap:14px;align-items:center}.sc .i{width:42px;height:42px;padding:10px;border-radius:12px;background:var(--pink);color:var(--bur)}.sc .stat{line-height:1.2}
+.bd2{display:inline-block;font-size:12px;font-weight:600;padding:2px 10px;border-radius:10px;background:var(--pink);color:var(--mar)}.bd2.s2,.bd2.s3{background:#e3f6ea;color:var(--ok)}.bd2.s4,.bd2.s5{background:#fde6e3;color:#b3261e}.bd2.s1{background:#fff3d6;color:#8a5a00}
+[data-theme=dark] .bd2{background:#3a2430;color:#f0a9bd}[data-theme=dark] .bd2.s2,[data-theme=dark] .bd2.s3{background:#173524;color:#7ddca0}[data-theme=dark] .bd2.s4,[data-theme=dark] .bd2.s5{background:#40201f;color:#ff9c94}[data-theme=dark] .badge.sim{background:var(--bg2)}
+.tw table{min-width:680px}.pc{transition:transform .2s,box-shadow .2s}
+@media(hover:hover){.pc:hover,.pr:hover{transform:translateY(-3px)}}
+@media(max-width:760px){nav .m.on .lk,nav .m.on .ac{flex-direction:column;align-items:stretch;margin:0}nav .m a:not(.btn){padding:8px 0}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
