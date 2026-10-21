@@ -28,3 +28,8 @@ Foto peserta & hero hasil upload hanya di browser ini (IndexedDB, diperkecil, EX
 
 ## Foto
 Foto peserta/hero dipotong (crop, gaya foto profil WhatsApp) lalu otomatis dikonversi ke WebP (cadangan JPEG bila browser tidak mendukung).
+
+## Catatan
+- Loading screen hanya tampil saat website dibuka pertama kali dalam sesi atau dimuat ulang (reload), bukan saat berpindah halaman.
+- Profil peserta tampil di katalog beranda hanya bila status Disetujui/Aktif dan peserta mengizinkan publikasi (browser yang sama).
+- Halaman Syarat/Privasi punya tombol Kembali dan Saya Setuju (mengisi centang persetujuan di formulir).
