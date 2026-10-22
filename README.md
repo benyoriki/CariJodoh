@@ -33,3 +33,7 @@ Foto peserta/hero dipotong (crop, gaya foto profil WhatsApp) lalu otomatis dikon
 - Loading screen hanya tampil saat website dibuka pertama kali dalam sesi atau dimuat ulang (reload), bukan saat berpindah halaman.
 - Profil peserta tampil di katalog beranda hanya bila status Disetujui/Aktif dan peserta mengizinkan publikasi (browser yang sama).
 - Halaman Syarat/Privasi punya tombol Kembali dan Saya Setuju (mengisi centang persetujuan di formulir).
+
+## Hero & preview WhatsApp
+Hero: hero-1200.webp (1200×800) dan hero-800.webp (HP). Ganti keduanya untuk foto baru (rasio 3:2).
+preview.jpg 1200×630 (<300 KB). Meta OG memakai ?v=2; naikkan angkanya (v=3, dst.) bila preview diganti agar cache WhatsApp ter-refresh. Uji ulang lewat Facebook Sharing Debugger.
