@@ -1,12 +1,12 @@
 {
- "name": "BIRO JODOH INDONESIA",
- "short_name": "Biro Jodoh",
+ "name": "Cari Jodoh",
+ "short_name": "Cari Jodoh",
  "description": "Temukan Pasangan Serius & Sejalan di Sini.",
  "start_url": "index.html",
  "scope": "./",
  "display": "standalone",
- "background_color": "#FFFDFE",
- "theme_color": "#741C2C",
+ "background_color": "#120123",
+ "theme_color": "#2A0B3A",
  "lang": "id",
  "icons": [
   {

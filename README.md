@@ -1,4 +1,4 @@
-# BIRO JODOH INDONESIA (prototipe)
+# Cari Jodoh (prototipe)
 Upload semua file ke root repo GitHub → Settings → Pages → Deploy from branch (main, / root).
 Tambahkan sendiri: favicon.png dan preview.jpg (1200×630).
 ## Batasan
@@ -22,7 +22,7 @@ Admin > Cari Kecocokan: kandidat dengan alasan kecocokan transparan; rekomendasi
 
 ## PWA & logo
 manifest.json + sw.js (network-first, cadangan offline). Instal: Chrome/Edge (Windows & Android) lewat tombol "Pasang Aplikasi" atau menu browser; iPhone: Share > Add to Home Screen. Wajib HTTPS (GitHub Pages sudah). Setelah update, naikkan nama cache `V` di sw.js.
-Logo: logo.png (transparan) dan ikon icon-*.png dibuat dari logo Aku Cari Kamu.
+Logo: logo.png (transparan) dan ikon icon-*.png dibuat dari gambar ikon Cari Jodoh (bingkai 5%).
 ## Foto
 Foto peserta & hero hasil upload hanya di browser ini (IndexedDB, diperkecil, EXIF terhapus). Untuk hero permanen, ganti hero.svg dengan foto berlisensi.
 
